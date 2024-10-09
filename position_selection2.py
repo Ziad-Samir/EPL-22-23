@@ -4,7 +4,7 @@ import joblib
 import pandas as pd
 import plotly.express as px
 # Load models and scaler
-res = joblib.load( "res.pkl")
+res = joblib.load( "Res.pkl")
 Inputs = joblib.load( "Inputs.pkl")
 Smote = joblib.load("smote.pkl")
 scaler = joblib.load("Scaler.pkl")
