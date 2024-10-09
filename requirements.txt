@@ -2,4 +2,4 @@ plotly
 streamlit
 joblib
 scikit-learn
-
+imbalanced-learn
