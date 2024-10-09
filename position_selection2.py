@@ -4,6 +4,9 @@ import joblib
 import pandas as pd
 import plotly.express as px
 # Load models and scaler
+res = joblib.load( "res.pkl")
+Inputs = joblib.load( "Inputs.pkl")
+Smote = joblib.load("smote.pkl")
 scaler = joblib.load("Scaler.pkl")
 model = joblib.load("Model.pkl")
 df_EFL_Standing=pd.read_csv("FPL.csv")
